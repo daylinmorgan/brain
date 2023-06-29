@@ -3,8 +3,6 @@ title: My Brain
 tags: [meta]
 ---
 
-# My Brain
-
 Many folks describe their zettelkasten or digital garden as a second brain.
 For myself, in many ways this "brain" is not so much a *second* brain as it is an extension or improvement on my current brain.
 Maybe more accurately described as a brain*dump*.
