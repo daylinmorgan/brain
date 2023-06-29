@@ -3,6 +3,18 @@ baseUrl: https://brain.dayl.in/
 contentDir: ../slipbox/
 enableGitInfo: true
 
+menu:
+  main:
+    - name: tags
+      url: /tags
+      weight: 1
+    - name: hubs
+      url: /tags/hub
+      weight: 2
+    - name: search
+      url: /search
+      weight: 3
+
 module:
   imports:
   - path: github.com/daylinmorgan/brain-stem
