@@ -8,6 +8,7 @@ Indeed in many respects it functions better than my analog brain.
 
 Pick my brain @ [brain.dayl.in](https://brain.dayl.in).
 
+Powered by the custom `hugo` theme [`brain-stem`](https://github.com/daylinmorgan/brain-stem/)
 
 > **Note**
 > `thinking` commits are just that only modification to slipbox (brain) content
