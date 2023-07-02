@@ -3,6 +3,11 @@ baseUrl: https://brain.dayl.in/
 contentDir: ../slipbox/
 enableGitInfo: true
 
+outputs:
+  home:
+    - HTML
+    - json
+
 menu:
   main:
     - name: tags
@@ -14,6 +19,9 @@ menu:
     - name: search
       url: /search
       weight: 3
+    - name: graph
+      url: /graph
+      weight: 4
 
 module:
   imports:
