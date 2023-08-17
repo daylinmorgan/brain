@@ -28,7 +28,8 @@ template = "default.md"
 ignore = [
   "projects/**/*",
   "hugo/**/*",
-  "README.md"
+  "README.md",
+  "slipbox/{search,graph}.md"
 ]
 
 # Configure random ID generation.
