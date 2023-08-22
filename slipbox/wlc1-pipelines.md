@@ -5,12 +5,20 @@ tags: [programming, todo]
 
 # Pipelines
 
+## Covalent
+
+## Dagster
+
+## Luigi
+
+## Kedro
+
+## Hamilton
+
 ## Snakemake
 
-
-## Flyte 
-
+## Flyte
 
 ## Nextflow
 
-
+## Pipen
