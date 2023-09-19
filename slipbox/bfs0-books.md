@@ -9,14 +9,19 @@ tags: [hub]
 
 ## Currently Reading
 
-- The Sword of Destiny
-- The Murderbot Diaries by Martha Wells
-- Time Machine by H.G. Wells *on hold*
+- The Sword of Destiny *on hold*
+- Iron Gold *on hold*
+- Rogue Protocol
+- Fourth Wing
 
 ## Books I've Read
 
 ### 2023
 
+- Artificial Condition
+- All Systems Red
+- Morning Star
+- Golden Son
 - [Red Rising](jhb5-book-red-rising.md)
 - [The Blacktongue Thief](92vv-book-the-blacktongue-thief.md)
 - [The Last Wish](2vjy-book-the-last-wish.md)
