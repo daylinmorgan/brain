@@ -10,14 +10,15 @@ tags: [hub]
 ## Currently Reading
 
 - The Sword of Destiny *on hold*
-- Iron Gold *on hold*
-- Rogue Protocol
-- Fourth Wing
+- Iron Gold
 
 ## Books I've Read
 
 ### 2023
 
+- Rogue Protocol
+- This Mortal Coil
+- Fourth Wing
 - Artificial Condition
 - All Systems Red
 - Morning Star
