@@ -1,6 +1,7 @@
 ---
 title: Books
-tags: [hub]
+tags:
+- hub
 ---
 
 # Books
@@ -15,22 +16,36 @@ tags: [hub]
 ## Books I've Read
 
 ### 2023
+*Standalone Novels*
+- [Project Hail Mary](hyqv-book-project-hail-mary.md)
+- [Recursion](5zru-book-recursion.md)
 
+*The Murderbot Diaires*
 - Rogue Protocol
-- This Mortal Coil
-- Fourth Wing
 - Artificial Condition
 - All Systems Red
+
+*This Mortal Coil*
+- This Mortal Coil
+
+*The Empyrean*
+- Fourth Wing
+
+*Red Rising*
 - Morning Star
 - Golden Son
 - [Red Rising](jhb5-book-red-rising.md)
+
+*Blacktongue*
 - [The Blacktongue Thief](92vv-book-the-blacktongue-thief.md)
+
+*The Witcher*
 - [The Last Wish](2vjy-book-the-last-wish.md)
+
+*The Founders Trilogy*
 - Locklands
 - Shorefall
 - [Foundryside](4x3x-book-foundryside.md)
-- [Project Hail Mary](hyqv-book-project-hail-mary.md)
-- [Recursion](5zru-book-recursion.md)
 
 DNFs:
 - How to kill your family
