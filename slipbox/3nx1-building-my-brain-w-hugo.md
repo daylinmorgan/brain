@@ -5,9 +5,11 @@ tags: [todo,webdev]
 
 # Building My Brain w/Hugo
 
-=]
+
 
 ## Workarounds
+
+
 
 ### Relative links
 
@@ -16,4 +18,7 @@ tags: [todo,webdev]
 
 ### Graph -> Backlinks
 
+## Features
+- [graph](/graph) [implementation](87x3-d3.md)
+- [search](/search) [implementation](i5a7-search-for-static-sites.md)
 
