@@ -3,8 +3,6 @@ title: Vim
 tags: []
 ---
 
-# Vim
-
 Modeline magic
 
 At the end of a file use a comment like `# vim: ft=zsh`.

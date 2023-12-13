@@ -3,8 +3,6 @@ title: Collapsible Nav Bar
 tags: [webdev, css]
 ---
 
-# Collapsible Nav Bar
-
 In two separate `hugo` projects I've managed to use a collapsing nav bar.
 I should really document for myself the basic pieces that make it work.
 

@@ -3,8 +3,6 @@ title: "PGP: Pretty Good Privacy"
 tags: [linux, encryption]
 ---
 
-# PGP: Pretty Good Privacy
-
 My main usecase for pgp keys is to get that sweet sweet commit verification.
 In the incredibly unlikely attempt someone were to ever try to impersonate my commits they would lack my signature.
 

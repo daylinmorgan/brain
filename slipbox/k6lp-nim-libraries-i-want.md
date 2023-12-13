@@ -3,8 +3,6 @@ title: Nim libraries I want
 tags: [nim]
 ---
 
-# Nim libraries I want
-
 Here is a list in no particular order of `nim` libraries that I wish existed or might write one day.
 
 ## bbansi

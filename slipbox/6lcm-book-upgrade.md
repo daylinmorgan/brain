@@ -7,8 +7,6 @@ book:
     - science fiction
 ---
 
-# Book: Upgrade
-
 
 ## Review
 

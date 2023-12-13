@@ -3,12 +3,8 @@ title: Building My Brain w/Hugo
 tags: [todo,webdev]
 ---
 
-# Building My Brain w/Hugo
-
-
 
 ## Workarounds
-
 
 
 ### Relative links

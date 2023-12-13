@@ -5,8 +5,6 @@ tags:
   - linux
 ---
 
-# Nix and Nixos
-
 Nix could be used to describe the `nix` command line program or `nix` the language.
 
 Nixos is a declarative operating system built atop both of these components.

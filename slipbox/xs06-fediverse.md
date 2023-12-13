@@ -5,8 +5,6 @@ tags:
   - activity pub
 ---
 
-# Fediverse
-
 A term used to describe decentralized services formally own, operated, and controlled by corporations.
 
 People envision these technologies as free from some of the effects pursuant

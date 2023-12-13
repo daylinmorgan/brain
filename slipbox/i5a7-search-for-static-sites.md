@@ -3,8 +3,6 @@ title: Search for Static Sites
 tags: [meta]
 ---
 
-# Search for Static Sites
-
 Search is an obvious quality of life improvement to a website primarily consisting of information.
 Such as this very `brain`!
 

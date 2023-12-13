@@ -7,8 +7,6 @@ book:
     - fantasy
 ---
 
-# Book: The Blacktongue Thief
-
 Review: 4.5/5 stars
 
 I initially started this book thinking it was part of a complete trilogy.

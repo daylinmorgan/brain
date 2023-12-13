@@ -5,8 +5,6 @@ tags:
 - nim
 ---
 
-# Nim Interop
-
 Nim has the powerful ability to interop with code from any of it's backends.
 Notably this is something I made need to eventually fill in the gaps of
 third-party `nim` libraries with legacy c/c++ libraries.

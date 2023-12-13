@@ -3,8 +3,6 @@ title: Zstyle
 tags: [zsh, unix]
 ---
 
-# Zstyle
-
 A way to use data across [zshell](v6l4-zshell.md).
 
 For manpage: `man zshmodules`

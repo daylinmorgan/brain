@@ -3,7 +3,6 @@ title: Elder Futhark Runes
 tags: [language]
 ---
 
-# Elder Futhark Runes
 
 The elder futhark are the beginnings of the proto-germanic writing system.
 

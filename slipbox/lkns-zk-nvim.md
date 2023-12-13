@@ -3,8 +3,6 @@ title: zk-nvim
 tags: [neovim]
 ---
 
-# zk-nvim
-
 `Zk-nvim` is a neovim plugin that makes thinking (writing in this *brain*) much more fluid.
 Best of all like the parent app it relies on customization is considered out-of-the box.
 

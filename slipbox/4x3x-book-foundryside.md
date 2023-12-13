@@ -7,7 +7,6 @@ book:
   - fantasy
 ---
 
-# Book: Foundryside
 
 ## My Review
 

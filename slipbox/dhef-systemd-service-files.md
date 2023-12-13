@@ -3,8 +3,6 @@ title: Systemd Service Files
 tags: [linux]
 ---
 
-# Systemd Service Files
-
 Files used to interact with systemd.
 
 There are additional tools on the horizon to replace systemd,

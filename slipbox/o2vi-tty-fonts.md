@@ -3,8 +3,6 @@ title: TTY Fonts
 tags: [linux]
 ---
 
-# TTY Fonts
-
 The default console font is pathetically hard to read on hi-res screens of now.
 
 This can be corrected with installation of `terminus-fonts`.

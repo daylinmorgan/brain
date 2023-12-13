@@ -3,8 +3,6 @@ title: Start Pages
 tags: [webdev,todo]
 ---
 
-# Start Pages
-
 A start page is the first page you see when starting a browser.
 It can be nice to have a custom UI with frequently used links.
 

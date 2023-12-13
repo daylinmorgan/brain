@@ -7,11 +7,9 @@ book:
     - science fiction
 ---
 
-# Book: Project Hail Mary
-
 What is a microbe was eating the sun and the only solution was many many light years away?
 
-# My Review
+## My Review
 
 4.5/5
 

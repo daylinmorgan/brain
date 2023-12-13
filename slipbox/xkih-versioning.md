@@ -3,8 +3,6 @@ title: Versioning
 tags: [programming]
 ---
 
-# Versioning
-
 ## Semver
 
 [ref](https://semver.org/)

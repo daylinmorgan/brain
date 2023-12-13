@@ -10,8 +10,6 @@ book:
 ---
 
 
-# Book: Red Rising
-
 Rating: 5/5
 
 This book was consumed in essentially one sitting on a Sunday. 

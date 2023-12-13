@@ -3,11 +3,10 @@ title: "Book: The Last Wish"
 tags: [books, todo]
 book:
   author: Andrzej Sapkowski
-  tags: 
-    - fantasy 
+  tags:
+    - fantasy
 ---
 
-# Book: The Last Wish
 
 
 

@@ -3,8 +3,6 @@ title: Zshell
 tags: [shell]
 ---
 
-# Zshell
-
 ## File Name Manipulation
 
 Zsh file name without the extension

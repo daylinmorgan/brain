@@ -3,8 +3,6 @@ title: "Writing a Lua Function"
 tags: ["lua","neovim"]
 ---
 
-# Writing a Lua function
-
 
 In an attempt to improve markdown formatting in the zk cli based zettelkasten
 I wanted to build a function atop the zk-nvim plugin in order to take the pick from a telescope/fzf 

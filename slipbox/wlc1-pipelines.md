@@ -3,8 +3,6 @@ title: Pipelines
 tags: [programming, todo]
 ---
 
-# Pipelines
-
 ## Covalent
 
 ## Dagster

@@ -7,8 +7,6 @@ book:
     - science fiction
 ---
 
-# Book: Recursion
-
 What if it was possible to enter your own memories and try again?
 
 ## My Review
