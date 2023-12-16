@@ -6,46 +6,53 @@ tags:
 
 > “You don’t have to burn books to destroy a culture. Just get people to stop reading them.” – Ray Bradbury in Fahrenheit 451
 
-## Currently Reading
-
-- The Sword of Destiny *on hold*
-- Iron Gold
-
 ## Books I've Read
 
 ### 2023
-*Standalone Novels*
+
+#### Standalone Novels
+
 - [Project Hail Mary](hyqv-book-project-hail-mary.md)
 - [Recursion](5zru-book-recursion.md)
 
-*The Murderbot Diaires*
+#### The Murderbot Diaires
+
 - Rogue Protocol
 - Artificial Condition
 - All Systems Red
 
-*This Mortal Coil*
+#### This Mortal Coil
+
 - This Mortal Coil
 
-*The Empyrean*
+#### The Empyrean
+
 - Fourth Wing
 
-*Red Rising*
+#### Red Rising
+
+- Dark Age
+- Iron Gold
 - Morning Star
 - Golden Son
 - [Red Rising](jhb5-book-red-rising.md)
 
-*Blacktongue*
+#### Blacktongue
+
 - [The Blacktongue Thief](92vv-book-the-blacktongue-thief.md)
 
-*The Witcher*
+#### The Witcher
+
 - [The Last Wish](2vjy-book-the-last-wish.md)
 
-*The Founders Trilogy*
+#### The Founders Trilogy
+
 - Locklands
 - Shorefall
 - [Foundryside](4x3x-book-foundryside.md)
 
-DNFs:
+#### DNFs
+
 - How to kill your family
 
 ### 2022
