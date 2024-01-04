@@ -31,6 +31,7 @@ tags:
 
 #### Red Rising
 
+- Light Bringer
 - Dark Age
 - Iron Gold
 - Morning Star
