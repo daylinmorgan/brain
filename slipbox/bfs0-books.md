@@ -8,6 +8,12 @@ tags:
 
 ## Books I've Read
 
+### 2024
+
+#### The Murderbot Diaires
+
+- Exit Strategy
+
 ### 2023
 
 #### Standalone Novels
@@ -61,4 +67,5 @@ tags:
 - [Upgrade](6lcm-book-upgrade.md)
 - [Three Body Problem](74u3-book-three-body-problem.md)
 
-[Books I plan to read.](https://www.goodreads.com/review/list/161626394-daylin-morgan?shelf=to-read)
+<!-- [Books I plan to read.](https://www.goodreads.com/review/list/161626394-daylin-morgan?shelf=to-read) -->
+[Books I plan to read.](https://app.thestorygraph.com/to-read/daylinmorgan)
