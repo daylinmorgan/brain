@@ -19,6 +19,9 @@ alias micromamba-fhs="nix-shell -E 'with import <nixpkgs> {}; (pkgs.buildFHSUser
 
 [ref]: (https://nixos.org/manual/nixpkgs/stable/#how-to-consume-python-modules-using-pip-in-a-virtual-environment-like-i-am-used-to-on-other-operating-systems)
 
+## Vscode
+
+Just use `vscode-fhs` and move on with your life.
 
 ## Nix-ld
 
