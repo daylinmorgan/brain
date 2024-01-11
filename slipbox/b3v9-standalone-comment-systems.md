@@ -24,6 +24,13 @@ Some important criteria:
 To evaluate:
 
 - [Disqus](https://disqus.com)
-- [Giscus](https://giscus.app)
+
 - Mastodon [custom implementation](https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/)
+
+- [Utterances](https://utteranc.es)
+- [Giscus](https://giscus.app)
+
 - [R3ply](https://r3ply.com) *not available yet*
+
+- [Commentario](https://comentario.app/en/)
+- [Remark42](https://remark42.com)

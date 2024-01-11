@@ -31,7 +31,8 @@ Just use `vscode-fhs` and move on with your life.
 ### Python
 
 Error from matplotlib:
-```
+
+```txt
 ImportError: libstdc++.so.6: cannot open shared object file: No such file or directory
 ```
 
