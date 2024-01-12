@@ -29,7 +29,7 @@ ignore = [
   "projects/**/*",
   "hugo/**/*",
   "README.md",
-  "slipbox/{search,graph}.md"
+  "slipbox/{search,graph,_index}.md"
 ]
 
 # Configure random ID generation.
