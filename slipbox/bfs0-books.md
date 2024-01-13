@@ -10,6 +10,11 @@ tags:
 
 ### 2024
 
+#### This Mortal Coil
+
+- This Vicious Cure
+- This Cruel Design
+
 #### The Murderbot Diaires
 
 - Exit Strategy
