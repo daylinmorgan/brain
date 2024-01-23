@@ -27,7 +27,7 @@ leverage `nix flakes` to host these services as well.
 
 A commit to how `nim` handles `dlload` on Nixos highlighted to me that I haven't fully drank the kool-aid on `nix`.
 
-Simply compiling `nim`` packages that depend on `openssl`,
+Simply compiling `nim` packages that depend on `openssl`,
 which is essentially any package interfacing with `https` has now changed.
 It's impossible to do so without opening a shell with access to
 [shared libraries](https://nixos.wiki/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F).
