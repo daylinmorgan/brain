@@ -11,6 +11,15 @@ tags: [programming]
 
 [ref](https://calver.org)
 
+## EffVer
+
+[ref](https://jacobtomlinson.dev/effver/)
+
+Intended Effort Versioning for "EffVer" for short uses the version number to communicate
+more plainly with library consumers the expected effort involved in updating software.
+
+I think this isn't too dissimilar from how SemVer is used in the wild.
+
 ## Calver + Lexicographically Increasing Build ID
 
 [ref](https://github.com/mbarkhau/bumpver)
@@ -42,3 +51,12 @@ lexid-inc 1999
 > 22000
 ```
 
+--- 
+
+In the future, I'll likely use a combination of two of the above version schemes:
+
+1. EffVer: for libraries/api's
+2. Calver+LexoBuildID: for applications where only the most recent version is supported
+
+No matter what version scheme we use though, it's still no substitute for proper communication
+about breaking changes in software.
