@@ -15,7 +15,7 @@ tags: [programming]
 
 [ref](https://jacobtomlinson.dev/effver/)
 
-Intended Effort Versioning for "EffVer" for short uses the version number to communicate
+Intended Effort Versioning or "EffVer" for short uses the version number to communicate
 more plainly with library consumers the expected effort involved in updating software.
 
 I think this isn't too dissimilar from how SemVer is used in the wild.
