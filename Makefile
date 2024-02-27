@@ -1,3 +1,5 @@
+think: ## commit the slipbox with :brain: commit
+	git commit -m ":brain:" -- slipbox
 
 serve: ## start dev build of site
 	HUGO_MODULE_REPLACEMENTS="github.com/daylinmorgan/brain-stem -> brain-stem" \
