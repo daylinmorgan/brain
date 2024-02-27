@@ -43,3 +43,7 @@ Caveat I've found editing my system configuration is to always err on the side o
 For example when writing functions or imports add the parenthesis or brackets that indicate structure.
 Otherwise, you are likely to get odd recursion errors which fail to spell out the actual problem.
 
+## Contributing
+
+Adding to nixpkgs is relatively straightforward and to find out where in the stages/channels a particular PR is there
+is a handy online [tracker](https://nixpk.gs/pr-tracker.html).
