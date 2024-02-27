@@ -37,6 +37,9 @@ for the forseeable future and likely for as long as it exists will require these
 of cognitive shifts to a slightly different way of doing things.
 But of course, what's gained particularly for applications is a less obfuscated build.
 
+## Syntax
 
-
+Caveat I've found editing my system configuration is to always err on the side of more syntactical sugar.
+For example when writing functions or imports add the parenthesis or brackets that indicate structure.
+Otherwise, you are likely to get odd recursion errors which fail to spell out the actual problem.
 
