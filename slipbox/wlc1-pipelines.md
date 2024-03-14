@@ -3,6 +3,10 @@ title: Pipelines
 tags: [programming, todo]
 ---
 
+## Swydd
+
+[repo](https://github.com/daylinmorgan/swydd)
+
 ## Covalent
 
 ## Dagster
