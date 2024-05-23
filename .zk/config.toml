@@ -189,7 +189,7 @@ ls = "zk list --quiet --format oneline $@"
 
 # create new note inside the slipbox
 n = "zk new -W $ZK_NOTEBOOK_DIR/slipbox $@"
-ei = "zk edit --interactive"
+ei = "zk edit --interactive -s modified"
 # Edit the last modified note.
 editlast = "zk edit --limit 1 --sort modified- $@"
 
