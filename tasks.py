@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# https://github.com/daylinmorgan/charman (readme path to automagic fetch)
+# https://github.com/daylinmorgan/swydd (readme path to automagic fetch)
 # fmt: off
 if not (src := __import__("pathlib").Path(__file__).parent / "swydd/__init__.py").is_file(): # noqa
     try: __import__("swydd") # noqa
@@ -13,13 +13,16 @@ if not (src := __import__("pathlib").Path(__file__).parent / "swydd/__init__.py"
 
 import swydd as s
 
+s.define_env(
+    "HUGO_MODULE_REPLACEMENTS", "github.com/daylinmorgan/brain-stem -> brain-stem"
+)
 
-s.define_env("HUGO_MODULE_REPLACEMENTS","github.com/daylinmorgan/brain-stem -> brain-stem")
 
 @s.task
 def think():
     """commit the slipbox with :brain: commit"""
     s.sh("git commit -m ':brain:' -- slipbox")
+
 
 @s.task
 def serve():
@@ -34,4 +37,3 @@ def build():
 
 
 s.cli()
-
