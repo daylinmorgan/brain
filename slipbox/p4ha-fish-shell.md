@@ -38,6 +38,7 @@ path=(
 ```
 
 FISH:
+
 ```fish
 fish_add_path /opt/local/{,s}bin
 fish_add_path /usr/{,local}/{,s}bin
@@ -46,7 +47,10 @@ fish_add_path $HOME/.{go,cargo,pyenv,pixi,zig}/bin
 
 My fish experiment lasted less than a day. I'll probably return to fish someday in the future.
 Though who knows maybe `nushell` will actually make a case as an interactive shell.
-When attempting to install on a remote server resulted in a broken binary that couldn't produce help output.
+When attempting to install it on a remote server resulted in a broken binary that couldn't produce help output.
+
+Once this [PR](https://github.com/fish-shell/fish-shell/pull/10367) is fleshed out I'll probably play around with it again.
+Working at UT may be the last time I work in an environment where I hesitate to just install something or don't have root access on servers?
 
 Realistically, I'd run into problems attempting to install zshell from source too,
 but zsh is ubiquitous enough that I'd probably never NEED to install it on a machine I don't have root access to.
