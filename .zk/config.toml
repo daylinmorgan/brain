@@ -1,7 +1,6 @@
 # zk configuration file
 #
 # Uncomment the properties you want to customize.
-
 # NOTE SETTINGS
 #
 # Defines the default options used when generating new notes.
@@ -79,6 +78,7 @@ ignore = [
 
 [group.fleeting]
 paths = ["fleeting"]
+
 [group.fleeting.note]
 filename = "{{id}}"
 default-title = "A fleeting note"
@@ -159,6 +159,7 @@ dead-link = "error"
 #    $ zk edit recents --interactive
 #recents = "--sort created- --created-after 'last two weeks'"
 
+untitled = "-m 'title: Untitled'"
 
 # COMMAND ALIASES
 #
@@ -189,7 +190,7 @@ ls = "zk list --quiet --format oneline $@"
 
 # create new note inside the slipbox
 n = "zk new -W $ZK_NOTEBOOK_DIR/slipbox $@"
-ei = "zk edit --interactive -s modified"
+ei = "zk edit --interactive -s modified slipbox"
 # Edit the last modified note.
 editlast = "zk edit --limit 1 --sort modified- $@"
 
