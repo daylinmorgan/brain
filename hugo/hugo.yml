@@ -19,9 +19,12 @@ menu:
     - name: search
       url: /search
       weight: 3
+    - name: all
+      url: /all
+      weight: 4
     - name: graph
       url: /graph
-      weight: 4
+      weight: 5
 
 params:
   recentThoughts: true
