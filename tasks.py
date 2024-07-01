@@ -17,7 +17,6 @@ s.define_env(
     "HUGO_MODULE_REPLACEMENTS", "github.com/daylinmorgan/brain-stem -> brain-stem"
 )
 
-
 @s.task
 def think():
     """commit the slipbox with :brain: commit"""
