@@ -27,7 +27,7 @@ def think():
 @s.task
 def serve():
     """run hugo server"""
-    s.sh("hugo server -s hugo")
+    s.sh("hugo server -s hugo --disableFastRender")
 
 
 @s.task
