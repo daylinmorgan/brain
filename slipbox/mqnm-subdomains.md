@@ -20,11 +20,16 @@ My very own git forge powered by [forgejo](https://forgejo.org/).
 
 This subdomain is a redirect to my user GitHub Pages instance at `daylinmorgan.github.io`.
 This allows me to take advantage of the project pages feature that redirects urls.
-While still listing my custom domain.
+While still listing using custom domain.
+For example I don't have a dedicated url for `task.mk` and instead point users to [gh.dayl.in/task.mk](https://gh.dayl.in/task.mk)
 
 ### [viv](https://viv.dayl.in)
 
 This site is hosted on GitHub which serves to provide a link to both documentation and a shorter link to the curl-able version of `viv`: `curl -fsSL viv.dayl.in/viv.py`.
+
+### [logo](https://logo.dayl.in)
+
+Just a publicly accessible link if I need it for the programmatically generated logo I use.
 
 ### [lemmy](https://lemmy.dayl.in)
 
@@ -37,20 +42,21 @@ Specifically used to interact with Mastodon, while being dead simple to setup an
 
 ### [nimpkgs](https://nimpkgs.dayl.in)
 
-An `karax`-powered SPA as an alternative to [nimble.directory](https://nimble.directory) which has been neglected and is regularly inaccessible.
-
+A `karax`-powered SPA as an alternative to [nimble.directory](https://nimble.directory).
+Unlike `nimble.directory` which has been neglected and is regularly inaccessible,
+this site is completely static and auto-generated using GitHub Actions.
 It loses package README's, but gains individual package version information from git tags.
 
 ### [recipes](https://recipes.dayl.in)
 
-Simple recipe-book website.
-
-### [bsky](https://bsky.dayl.in)
-
-Experiment hosting a PDS for bluesky. 
-Got it setup but in the end bluesky probably won't take off so I'll eventually delete it.
+Simple recipebook website.
 
 ## Past
+
+### bsky
+
+Experiment hosting a PDS for bluesky. 
+Got it setup but in the end bluesky probably won't take off so I removed it.
 
 ### f1
 
