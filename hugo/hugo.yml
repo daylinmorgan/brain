@@ -28,7 +28,7 @@ menu:
 
 params:
   recentThoughts: true
-  # recentThoughtsNum: 10
+  # recentThoughtsLimit: 10
 
 module:
   imports:
