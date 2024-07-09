@@ -39,3 +39,6 @@ I use this in my `tn` shell function new as a backup if no argument supplied.
 $PWD(:A:t2)
 ```
 
+## refs
+
+- [cheatsheet gist](https://gist.github.com/ClementNerma/1dd94cb0f1884b9c20d1ba0037bdcde2)
