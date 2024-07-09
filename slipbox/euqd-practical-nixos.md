@@ -3,9 +3,28 @@ title: Practical Nixos
 tags: [python, nix]
 ---
 
-A non-exhaustive list of the things I do to make NixOs work for me.
+A non-exhaustive list of the things I do to make NixOS work for me.
 Because at the end of the day software purity is nice,
 but I still need to actually get work done.
+
+## Get NixOS to check my recently populated cache
+
+[narinfo-cache-negative-ttl](https://nix.dev/manual/nix/2.22/command-ref/conf-file.html#conf-narinfo-cache-negative-ttl)
+
+
+## Building only the 'system-path'
+
+Get the 'system-path' store path
+
+```sh
+nix derivation show `oizys output` | jq -r '.[].inputDrvs | with_entries(select(.key|match("system-path";"i"))) | keys | .[]'
+```
+
+Build the 'system-path' 
+
+```sh
+nix build '/path/to/system-path.drv^*' --log-lines 0 --print-build-logs
+```
 
 ## Micromamba
 
@@ -39,6 +58,4 @@ ImportError: libstdc++.so.6: cannot open shared object file: No such file or dir
 There are a number of ways to solve this the most attractive being to use nix-ld.
 However, I run into an issues because qtile is corrupting the environment 
 and taking precedence over the `python` wrapper that I add to `/run/current-system/sw/bin`.
-
-
 
