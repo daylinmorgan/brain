@@ -10,7 +10,11 @@ but I still need to actually get work done.
 ## Get NixOS to check my recently populated cache
 
 [narinfo-cache-negative-ttl](https://nix.dev/manual/nix/2.22/command-ref/conf-file.html#conf-narinfo-cache-negative-ttl)
+## Get the originating flake info for a running system-path
 
+```sh
+nix-store -q --deriver /run/current-system | nix flake metadata
+```
 
 ## Building only the 'system-path'
 
@@ -42,7 +46,9 @@ alias micromamba-fhs="nix-shell -E 'with import <nixpkgs> {}; (pkgs.buildFHSUser
 
 Just use `vscode-fhs` and move on with your life.
 
-## Nix-ld
+## Distrobox
+
+I made a custom [distrobox](https://git.dayl.in/daylin/daylinbox) as one of the ultimate fallbacks.
 
 
 ## Ongoing problems

@@ -42,3 +42,8 @@ Using this command a file is never written to the disk.
 ```sh
 gpg --export-secret-keys | ssh rent "gpg --import"
 ```
+
+Using [datamatrix](https://schnouki.net/post/2010/howto-backup-your-gnupg-secret-key-on-paper/) to store the key.
+[ref](https://caerul.net/post/notes-on-using-gnupg/)
+[paperkeyless strategy](https://www.saminiir.com/paper-storage-and-recovery-of-gpg-keys/)
+

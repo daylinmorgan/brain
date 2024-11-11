@@ -51,11 +51,16 @@ It loses package README's, but gains individual package version information from
 
 Simple recipebook website.
 
+
+### [attic](https://attic.dayl.in)
+
+Attic binary cache for `nix`.
+
 ## Past
 
 ### bsky
 
-Experiment hosting a PDS for bluesky. 
+Experiment hosting a PDS for bluesky.
 Got it setup but in the end bluesky probably won't take off so I removed it.
 
 ### f1

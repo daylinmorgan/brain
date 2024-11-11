@@ -20,3 +20,7 @@ to `ANSI` escape code formatted text.
 ## usu
 
 A library to parse my custom config language [`usu`](https://github.com/usu-dev).
+
+## nimportsort
+
+A helper cli to take a nim file (or directory of nim files) and sort the import statements.
