@@ -28,7 +28,7 @@ In addition, bash + GNU coreutils will always be ready and waiting on any system
 
 ## Nim
 
-Felt like coming back to an old friend warts and all.
+Felt like coming back to an old friend, warts and all.
 
 ## Nix
  
