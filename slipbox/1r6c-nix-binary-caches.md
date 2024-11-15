@@ -23,4 +23,11 @@ Now when my update job on GHA hits a cache miss it build and pushes to `https://
 For now the storage backend is a sqlite database but in the future I may explore using `postgres` or hosting the storage a [different backend][backend-ref].
 
 
+## Issues I've had
+
+When a cache becomes unreachable nix just straight up errors about it for no good reason.
+Need to track down the flags to convince it to not check a single substituter that might be offline.
+
+Otherwise I may hit "chicken/egg" problems when `algiz` both hosts the cache and uses it.
+
 [backend-ref]: https://lgug2z.com/articles/deploying-a-cloudflare-r2-backed-nix-binary-cache-attic-on-fly-io/
