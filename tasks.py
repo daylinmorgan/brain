@@ -19,7 +19,8 @@ setenv(
 @task
 def think():
     """commit the slipbox with :brain: commit"""
-    sub("git commit -m ':brain:' -- slipbox")
+    # sub("git commit -m ':brain:' -- slipbox")
+    sub("jj ci -m ':brain:' -- slipbox")
 
 
 @task
