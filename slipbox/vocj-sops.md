@@ -37,11 +37,11 @@ nix-shell -p ssh-to-age --run 'sudo cat /etc/ssh/ssh_host_ed25519_key.pub | ssh-
 
 This was resulting in errors. I think the issue is that age keys needed to have been written to a file that sops is looking at.
 I remedied this by running the following.
-Now when I ran `sops hosts/othalan/secrets.yaml` it worked...I had no idea this was necessary, but then again I'm not familiar with `age`.
 
 ```sh
 nix run 'nixpkgs#ssh-to-age' -- -private-key -i ~/.ssh/id_ed25519 > ~/.config/sops/age/keys.txt
 ```
+Now when I ran `sops hosts/othalan/secrets.yaml` it worked...I had no idea this was necessary, but then again I'm not familiar with `age`.
 
 Next I started by adding a secret to access my `restic` backup repository.
 
@@ -61,7 +61,7 @@ After rebuilding, the file I wanted to exist was as expected at `/run/secrets/re
 But I need to use `sudo` to verify this.
 This file will need to be accessible to my user `daylin`.
 
-I adapted the instructions from the `sops-nix` README and added tho following to make the secret accessible:
+I adapted the instructions from the `sops-nix` README and added the following to make the secret accessible:
 
 ```nix
 sops.secrets.restic-othalan = {
