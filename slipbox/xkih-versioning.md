@@ -3,7 +3,7 @@ title: Versioning
 tags: [programming]
 ---
 
-## Semver
+## SemVer
 
 [ref](https://semver.org/)
 

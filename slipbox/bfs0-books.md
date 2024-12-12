@@ -19,7 +19,7 @@ tags:
 - This Vicious Cure
 - This Cruel Design
 
-#### The Murderbot Diaires
+#### The Murderbot Diaries
 
 - Exit Strategy
 
@@ -30,7 +30,7 @@ tags:
 - [Project Hail Mary](hyqv-book-project-hail-mary.md)
 - [Recursion](5zru-book-recursion.md)
 
-#### The Murderbot Diaires
+#### The Murderbot Diaries
 
 - Rogue Protocol
 - Artificial Condition

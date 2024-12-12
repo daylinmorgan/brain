@@ -1,5 +1,5 @@
 ---
-title: Package Maintenancej
+title: Package Maintenance
 tags: [dev, conda]
 ---
 
