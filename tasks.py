@@ -27,13 +27,18 @@ def spell_check():
         text += f.read_text()
     # TODO: add support for this in swydd?
     output = subprocess.run(
-        ["aspell", "--conf=./.aspell/aspell.conf", "list"],
+        ["aspell", "--conf=./.aspell/aspell.conf", "--dont-backup", "list"],
         input=text,
         text=True,
         capture_output=True,
     )
     if output.returncode != 0:
-        sys.exit("error running aspell")
+        print("error running aspell, see below")
+        if output.stdout:
+            print(output.stdout)
+        if output.stderr:
+            print(output.stderr)
+        sys.exit(1)
 
     print("\n".join(sorted(set(output.stdout.splitlines()))))
 
@@ -42,7 +47,7 @@ def spell_check():
 def spell_review():
     """run spell check on files using aspell"""
     for f in (Path(__file__).parent / "slipbox").iterdir():
-        sub(f"aspell --conf=./.aspell/aspell.conf check {f}")
+        sub(f"aspell --conf=./.aspell/aspell.conf --dont-backup check {f}")
 
 
 @task
