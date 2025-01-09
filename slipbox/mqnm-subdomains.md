@@ -51,10 +51,13 @@ It loses package README's, but gains individual package version information from
 
 Simple recipebook website.
 
-
 ### [attic](https://attic.dayl.in)
 
 Attic binary cache for `nix`.
+
+### links
+
+[Linkding](https://linkding.link/) powered bookmark service.
 
 ## Past
 
