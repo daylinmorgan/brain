@@ -20,6 +20,7 @@ Kedro
 Kensington
 Lemmy
 Lexo
+Linkding
 Locklands
 Micromamba
 Modeline
