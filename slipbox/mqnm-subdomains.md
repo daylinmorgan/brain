@@ -59,12 +59,11 @@ Attic binary cache for `nix`.
 
 [Linkding](https://linkding.link/) powered bookmark service.
 
+### [bsky](https://bsky.dayl.in)
+
+Revived and active. Follow [me](https://bsky.app/profile/dayl.in) on bluesky!
+
 ## Past
-
-### bsky
-
-Experiment hosting a PDS for bluesky.
-Got it setup but in the end bluesky probably won't take off so I removed it.
 
 ### f1
 

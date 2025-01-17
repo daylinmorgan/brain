@@ -3,6 +3,7 @@ Backlinks
 Blacktongue
 Bookwyrm
 Buehlman
+Caddyfile
 Calver
 Commentario
 Dagster
@@ -47,11 +48,13 @@ Zstyle
 algiz
 anxxfsdpkapfnfauqe
 anyconnect
+atproto
 barebones
 bbansi
 bbcode
 bcdr
 beliveable
+bksy
 bluesky
 booktok
 brah
@@ -106,6 +109,7 @@ mullvad
 myfile
 myfruitlist
 narinfo
+nilly
 nimibook
 nimpkgs
 nimportsort
