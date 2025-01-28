@@ -42,7 +42,7 @@ def think():
 @task
 def serve():
     """run hugo server"""
-    sub("hugo server -s hugo --disableFastRender")
+    sub("hugo server -s hugo --disableFastRender --buildDrafts")
 
 
 @task
