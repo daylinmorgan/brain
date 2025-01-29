@@ -175,3 +175,5 @@ zshbuiltins
 zshell
 zshmodules
 zstyle
+rofi
+dmenu
