@@ -9,7 +9,7 @@ if not (
     _src.write_text(_r.read().decode())
 
 from pathlib import Path
-from swydd import task, sub, cli, setenv, get
+from swydd import task, sub, cli, setenv, get, targets
 
 setenv(
     "HUGO_MODULE_REPLACEMENTS",
@@ -18,6 +18,7 @@ setenv(
 
 
 @task
+@targets("project-words.txt")
 def add_words():
     """add 'misspelled' words to project-words.txt"""
     dictionary = Path(__file__).parent / "project-words.txt"
