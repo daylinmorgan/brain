@@ -18,10 +18,10 @@ setenv(
 
 
 @task
-@targets("project-words.txt")
+@targets("dict.txt")
 def add_words():
-    """add 'misspelled' words to project-words.txt"""
-    dictionary = Path(__file__).parent / "project-words.txt"
+    """add 'misspelled' words to dict.txt"""
+    dictionary = Path(__file__).parent / "dict.txt"
     new_words = get("cspell lint slipbox --words-only").strip().splitlines()
     words = dictionary.read_text().splitlines()
     dictionary.write_text("\n".join(sorted((*words, *new_words))))

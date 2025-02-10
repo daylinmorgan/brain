@@ -1,12 +1,12 @@
 $schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
 version: '0.2'
 dictionaryDefinitions:
-  - name: project-words
-    path: './project-words.txt'
+  - name: dict
+    path: './dict.txt'
     addWords: true
 dictionaries:
-  - project-words
+  - dict
 ignorePaths:
   - 'node_modules'
-  - '/project-words.txt'
+  - '/dict.txt'
 
