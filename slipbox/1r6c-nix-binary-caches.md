@@ -31,7 +31,7 @@ And again setup ssh access within the GHAs.
 Update:
 
 I've setup harmonia on `algiz` and integrated `nix-copy-closure` into `oizys cache` if the "type" of cache is set to "store".
-I'll run this setup for awhile and check back in occassionally on the size of the /nix/store.
+I'll run this setup for awhile and check back in occasionally on the size of the /nix/store.
 It would probably be useful to write my own monitoring script to track how the store changes in terms of size and number of closures.
 Ideally, it should have some steady-state or else it needs more aggressive garbage collection.
 

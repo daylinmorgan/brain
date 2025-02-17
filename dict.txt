@@ -177,3 +177,5 @@ zshmodules
 zstyle
 rofi
 dmenu
+harmonia
+worktrees
