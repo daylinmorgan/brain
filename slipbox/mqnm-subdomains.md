@@ -55,6 +55,10 @@ Simple recipebook website.
 
 Attic binary cache for `nix`.
 
+### [nix-cache](https://nix-cache.dayl.in)
+
+As the name suggests another nix binary cache and possible replacement for `attic`, currently based on [`harmonia`](https://github.com/nix-community/harmonia), but there is other's like `nix-serve-ng` which could serve the same purpose.
+
 ### links
 
 [Linkding](https://linkding.link/) powered bookmark service.
