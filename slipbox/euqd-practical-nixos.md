@@ -24,11 +24,12 @@ Get the 'system-path' store path
 nix derivation show `oizys output` | jq -r '.[].inputDrvs | with_entries(select(.key|match("system-path";"i"))) | keys | .[]'
 ```
 
-Build the 'system-path' 
+Build the 'system-path'
 
 ```sh
 nix build '/path/to/system-path.drv^*' --log-lines 0 --print-build-logs
 ```
+
 
 ## Micromamba
 
@@ -50,6 +51,13 @@ Just use `vscode-fhs` and move on with your life.
 
 I made a custom [distrobox](https://git.dayl.in/daylin/daylinbox) as one of the ultimate fallbacks.
 
+
+## Build Failures
+
+If I am suddenly needing to build something that is usually built by `nixos` I need to check if build failures are happening on hydra.
+If they aren't it means I've changed the closure somehow, otherwise the error is uptream and should in theory be resolved eventually.
+
+The ui for hydra is kind of a nightmare. But there is [`hydra-check`](https://github.com/nix-community/hydra-check) for the fastest check of single package.
 
 ## Ongoing problems
 
