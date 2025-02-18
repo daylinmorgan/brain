@@ -29,7 +29,7 @@ The dependencies shown by `nix-store --query --tree /path/to/closure` are the sa
 It's possible the issue is something to do with their `src` which uses `hercules-ci/gitignore`
 Or it's due to the `zon2nix` deps closure.
 
-~~Based on [this](https://nix.dev/guides/best-practices#reproducible-source-paths) it seems like the issue might arise in how they specify the `src = gitignoreSource ./.;`~~. Actually, this is describing that if you move this to a different place then it's now hash-<name of dir>.
+~~Based on [this](https://nix.dev/guides/best-practices#reproducible-source-paths) it seems like the issue might arise in how they specify the `src = gitignoreSource ./.;`~~. Actually, this is describing that if you move this to a different place then it's now hash-{name of dir}.
 But in this case the name of the directory doesn't change.
 
 Back to thinking the culprit is the zon2nix business somehow.
