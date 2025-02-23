@@ -6,6 +6,7 @@ Buehlman
 Caddyfile
 Calver
 Commentario
+Coreutil
 Dagster
 Disqus
 Distrobox
@@ -72,6 +73,7 @@ dejtu
 devlog
 distrobox
 dlload
+dmenu
 dosini
 firmwares
 forgejo
@@ -81,6 +83,7 @@ ghostty
 gitea
 goodreads
 gsettings
+harmonia
 hlxza
 hyprcursor
 ipairs
@@ -137,6 +140,7 @@ rcmajvsz
 recipebook
 restic
 rmapi
+rofi
 selfhosting
 servercert
 setfont
@@ -166,6 +170,7 @@ vpnui
 vyay
 webdev
 windicss
+worktrees
 xenonite
 xqgpbk
 zettelkasten
@@ -175,7 +180,3 @@ zshbuiltins
 zshell
 zshmodules
 zstyle
-rofi
-dmenu
-harmonia
-worktrees

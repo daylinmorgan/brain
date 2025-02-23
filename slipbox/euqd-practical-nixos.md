@@ -55,7 +55,7 @@ I made a custom [distrobox](https://git.dayl.in/daylin/daylinbox) as one of the 
 ## Build Failures
 
 If I am suddenly needing to build something that is usually built by `nixos` I need to check if build failures are happening on hydra.
-If they aren't it means I've changed the closure somehow, otherwise the error is uptream and should in theory be resolved eventually.
+If they aren't it means I've changed the closure somehow, otherwise the error is upstream and should in theory be resolved eventually.
 
 The ui for hydra is kind of a nightmare. But there is [`hydra-check`](https://github.com/nix-community/hydra-check) for the fastest check of single package.
 
