@@ -4,8 +4,8 @@ tags:
   - dev
 ---
 
-
-This is a list of commands I need once and got either from sluething or LLM's that If I need more than once or twice I should probably make a [zsh function](v6l4-zshell.md) for.
+This is a list of commands I need once and got either from sluething or LLM's that
+if I need more than once or twice I should probably make them a [zsh function](v6l4-zshell.md).
 
 ## Compression with progress
 
