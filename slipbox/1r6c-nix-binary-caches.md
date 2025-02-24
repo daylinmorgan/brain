@@ -39,6 +39,13 @@ There is a possibility if I build something using GHA and don't bother to rebuil
 I could prevent this by server side maintaining GC roots but this sounds more complicated.
 I think at that point I'd be better off returning to using attic for cache purposes.
 
+Update:
+
+After using harmonia for a while, I have had no issues with pusing to the cache.
+However, I do think the inability to easily prevent garbage collection based on something seperate from my VPS settings is problematic.
+This did come up at least once which is frustrating.
+It's also probably the case that storing closures directly in the `/nix/store` is less space efficient.
+Since, I'm not interested in manually handling GC roots, I've decided to go back to relying on attic for my nix build caching.
 
 ## Issues I've had
 
