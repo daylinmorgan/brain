@@ -17,7 +17,8 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           packages = with pkgs; [
-            zk
+            # my syste zk is running a patched version
+            # zk
             hugo
             nodePackages.cspell
             nodePackages.pnpm
