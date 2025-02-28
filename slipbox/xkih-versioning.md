@@ -51,7 +51,7 @@ lexid-inc 1999
 > 22000
 ```
 
---- 
+---
 
 In the future, I'll likely use a combination of two of the above version schemes:
 

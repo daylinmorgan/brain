@@ -4,7 +4,7 @@ tags:
   - programming
 ---
 
-Some general thoughts I have while exploring the Roc programming language.
+Some general thoughts I have while exploring the Roc [programming language](6rgi-programming-languages.md).
 
 Tag unions are very interesting as a concept and I need to use them more.
 
