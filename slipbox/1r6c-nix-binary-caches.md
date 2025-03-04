@@ -54,4 +54,8 @@ Need to track down the flags to convince it to not check a single substituter th
 
 Otherwise I may hit "chicken/egg" problems when `algiz` both hosts the cache and uses it.
 
+Nix is poor at handling what to do when a cache it expects to be online isn't. In some cases it basically just spits out TLS errors and aborts the build.
+A good enough workaround especially for something that is relatively easy to build is to enable the build fallback.
+To add this option to `nix` append any command with `--option fallback true`
+
 [backend-ref]: https://lgug2z.com/articles/deploying-a-cloudflare-r2-backed-nix-binary-cache-attic-on-fly-io/
