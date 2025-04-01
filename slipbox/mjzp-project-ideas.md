@@ -20,3 +20,28 @@ I think with something like [textual](https://github.com/Textualize/textual) and
 - existing conversation selector
 
 
+## nimblex
+
+A nim "script" runner
+
+### features
+
+- meant to be used as with a shebang
+- configurable (location, gcc, nim path, extra nim config file location)
+- generates nimble paths based on deps similar to viv
+- computes two hashes, one for deps block and one for script
+- implement env handling or use TMPDIR
+
+### usage
+
+```sh
+nimblex run --mode ephemeral ./script.nim
+nimblex run ./script.nim
+nimblex env list
+nimblex env remove
+```
+
+### Prior Art
+
+- [nimrun](https://github.com/flaviut/nimrun)
+- [nimr](ihttps://github.com/Jeff-Ciesielski/nimr)
