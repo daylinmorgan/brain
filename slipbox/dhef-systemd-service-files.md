@@ -80,3 +80,19 @@ Ideally, my lock script which is managed by `chezmoi` would exist
 as an actual package defined in my system configuration
 that is itself a wrapper for `figlet` and `i3lock-color`.
 
+
+## Using the path option
+
+When defining a systemd service on nixos one of the [options](https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=systemd.service+path) is `systemd.services.<name>.path`.
+
+```nix
+systemd.services.<name>.path = with pkgs; [ bash python3 ];`
+```
+
+```dosini
+Environment=PATH=/nix/store/<hash>-bash/bin:/nix/store/<hash>-python3/bin/`
+```
+
+It seems that in order to actually make this take effect the `ExecStart=` should be prefixed with `bash -c` or in this case `${pkgs.bash}/bin/bash`.
+This came up for me when writing a nixos service for `swayidle` that also needs to invoke `niri` and `swaylock`.
+
