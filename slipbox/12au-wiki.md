@@ -43,7 +43,7 @@ It was kinda slow even just trying to use its own website.
 
 ### [OtterWiki](https://otterwiki.com)
 
-### [Docuwiki](https://dokuwiki.org)
+### [DocuWiki](https://dokuwiki.org)
 
 Briefly had this running but did was not a fan of the workflow to edit static files.
 

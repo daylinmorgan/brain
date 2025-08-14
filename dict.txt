@@ -180,3 +180,16 @@ zshbuiltins
 zshell
 zshmodules
 zstyle
+swayidle
+niri
+swaylock
+DocuWiki
+datashelf
+nimblex
+nimrun
+nimr
+keybind
+submaps
+xwayland
+niriman
+Hyrpland
