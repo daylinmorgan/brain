@@ -10,6 +10,7 @@ but I still need to actually get work done.
 ## Get NixOS to check my recently populated cache
 
 [narinfo-cache-negative-ttl](https://nix.dev/manual/nix/2.22/command-ref/conf-file.html#conf-narinfo-cache-negative-ttl)
+
 ## Get the originating flake info for a running system-path
 
 ```sh
@@ -28,6 +29,20 @@ Build the 'system-path'
 
 ```sh
 nix build '/path/to/system-path.drv^*' --log-lines 0 --print-build-logs
+```
+
+## Keeping a clean system
+
+`nix store gc` and `nix-collect-garbage` will only remove things that do not have `gcroots`.
+`gcroots` are a sort of file-system usage indicator nix uses to know a store path should be kept around.
+
+Since I use `nix-direnv` these can build up over time, but I found out [`nh`](https://github.com/nix-community/nh)(a sort of `oizys` competitor) has a clean command.
+But even better it has a nixos module which I enabled like this:
+
+```nix
+programs.nh = enabled // {
+    clean = enabled;
+  };
 ```
 
 
