@@ -192,4 +192,6 @@ keybind
 submaps
 xwayland
 niriman
-Hyrpland
+Hyprland
+alot
+Codeberg
