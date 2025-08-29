@@ -8,7 +8,7 @@ As of writing (2025.08.27), my personal website at <https://dayl.in> is built an
 
 I think that for now GitHub is not going anywhere and while I use it for a lot of my OSS projects, there isn't really a need for me to use it for things I'm the sole contributor to.
 If I just want it to be publicly accessible then their are other options.
-For hosting the repo at least the best option is my own git server at <https://git.dayl.in>. 
+For hosting the repo at least the best option is my own git server at <https://git.dayl.in>.
 Below I want to explore some alternatives for hosting the site itself.
 
 ## Self-host
@@ -26,7 +26,7 @@ For something like this website where I build it a couple times a year I don't n
 A simple rsync of built files would be sufficient.
 
 I think for any commercial option it's fine if some years down the road I need to migrate.
-The less overhead (custom pipeline files, logins, etc.) a service has to use the easier it is form me to jump ship later down the road.
+The less overhead (custom pipeline files, logins, etc.) a service has to use the easier it is for me to jump ship later down the road.
 
 ### [GitHub Pages](https://docs.github.com/en/pages)
 
