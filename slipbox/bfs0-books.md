@@ -6,6 +6,8 @@ tags:
 
 > “You don’t have to burn books to destroy a culture. Just get people to stop reading them.” – Ray Bradbury in Fahrenheit 451
 
+NOTE: This list of books is out of date.
+
 ## Books I've Read
 
 ### 2024
@@ -27,8 +29,8 @@ tags:
 
 #### Standalone Novels
 
-- [Project Hail Mary](hyqv-book-project-hail-mary.md)
-- [Recursion](5zru-book-recursion.md)
+- Project Hail Mary
+- Recursion
 
 #### The Murderbot Diaries
 
@@ -51,21 +53,21 @@ tags:
 - Iron Gold
 - Morning Star
 - Golden Son
-- [Red Rising](jhb5-book-red-rising.md)
+- Red Rising
 
 #### Blacktongue
 
-- [The Blacktongue Thief](92vv-book-the-blacktongue-thief.md)
+- The Blacktongue Thief
 
 #### The Witcher
 
-- [The Last Wish](2vjy-book-the-last-wish.md)
+- The Last Wish
 
 #### The Founders Trilogy
 
 - Locklands
 - Shorefall
-- [Foundryside](4x3x-book-foundryside.md)
+- Foundryside
 
 #### DNFs
 
@@ -73,8 +75,8 @@ tags:
 
 ### 2022
 
-- [Upgrade](6lcm-book-upgrade.md)
-- [Three Body Problem](74u3-book-three-body-problem.md)
+- Upgrade
+- Three Body Problem
 
 <!-- [Books I plan to read.](https://www.goodreads.com/review/list/161626394-daylin-morgan?shelf=to-read) -->
-[Books I plan to read.](https://app.thestorygraph.com/to-read/daylinmorgan)
+<!-- [Books I plan to read.](https://app.thestorygraph.com/to-read/daylinmorgan) -->
