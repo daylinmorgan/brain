@@ -49,25 +49,29 @@ It loses package README's, but gains individual package version information from
 
 ### [recipes](https://recipes.dayl.in)
 
-Simple recipebook website.
-
-### [attic](https://attic.dayl.in)
-
-Attic binary cache for `nix`.
+Simple recipe book website, based on custom hugo theme.
 
 ### [nix-cache](https://nix-cache.dayl.in)
 
-As the name suggests another nix binary cache and possible replacement for `attic`, currently based on [`harmonia`](https://github.com/nix-community/harmonia), but there is other's like `nix-serve-ng` which could serve the same purpose.
-
-### links
-
-[Linkding](https://linkding.link/) powered bookmark service.
+Hosts an attic-based nix-cache.
 
 ### [bsky](https://bsky.dayl.in)
 
 Revived and active. Follow [me](https://bsky.app/profile/dayl.in) on bluesky!
 
+### [matrix](https://matrix.dayl.in)
+
+[Continuwuity](https://continuwuity.org) powered matrix homeserver.
+
 ## Past
+
+### [attic](https://attic.dayl.in)
+
+Attic binary cache for `nix`.
+
+### links
+
+[Linkding](https://linkding.link/) powered bookmark service.
 
 ### f1
 
