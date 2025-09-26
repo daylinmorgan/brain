@@ -8,8 +8,8 @@ if not((_i:=__import__)("importlib.util").util.find_spec("swydd")or
   _src.parent.mkdir(exist_ok=True);_src.write_text(_r.read().decode())  # noqa
 # fmt: on
 
-from pathlib import Path
-from swydd import task, sub, cli, setenv, get, targets
+from swydd import task, sub, cli, setenv, get, targets, Asset
+from datetime import datetime
 
 setenv(
     "HUGO_MODULE_REPLACEMENTS",
@@ -21,10 +21,24 @@ setenv(
 @targets("dict.txt")
 def add_words():
     """add 'misspelled' words to dict.txt"""
-    dictionary = Path(__file__).parent / "dict.txt"
-    new_words = get("cspell lint slipbox --words-only").strip().splitlines()
-    words = dictionary.read_text().splitlines()
-    dictionary.write_text("\n".join(sorted((*words, *new_words))))
+    dictionary = Asset("dict.txt")
+    new_words = sorted(
+        set(get("cspell lint slipbox --words-only").strip().splitlines())
+    )
+    if len(new_words) == 0:
+        quit("nothing to add")
+    words = dictionary.read().splitlines()
+    lines = (*words, f"# {datetime.today()}", *new_words)
+    dictionary.write("\n".join(lines))
+
+
+@task
+@targets("dict.txt")
+def sort_dict():
+    """sort words in dict.txt and remove comments"""
+    dictionary = Asset("dict.txt")
+    words = sorted(w for w in dictionary.read().splitlines() if not w.startswith("#"))
+    dictionary.write("\n".join(words))
 
 
 @task
