@@ -39,12 +39,12 @@ Error:
 Based on this [thread](https://github.com/nextcloud/all-in-one/discussions/1358)
 I added the server for my IP to the allow list for WOPI requests on the page at <https://cloud.dayl.in/settings/admin/richdocuments>.
 
-I still couln't open any files using Collabora, so I tried to use the "insecure" route by adding 0.0.0.0 to the list but that also didn't seem to resolve the issue.
+I still couldn't open any files using Collabora, so I tried to use the "insecure" route by adding 0.0.0.0 to the list but that also didn't seem to resolve the issue.
 After including 0.0.0.0 in the list it just seemed to hang, so I removed both of the I.P. addresses I added.
 
 I next tried to switch to using a collabora demo server but that also seems to fail inexplicably.
 
-Trying to reintall the collabora container after disabling seccomp
+Trying to reinstall the collabora container after disabling seccomp
 
 ---
 
