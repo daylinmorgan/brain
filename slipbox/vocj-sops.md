@@ -77,3 +77,5 @@ sops.secrets.restic-othalan = {
 
 With this, I now am able to access my `restic` password without needing to setup the file myself.
 So long as I can prove myself to `sops` of course.
+
+After adding another key to .sops.yaml (for instance when you make a new machine) you'll need to run `sops updatekeys secrets.yaml`.

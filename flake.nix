@@ -12,6 +12,7 @@
       systems = [ "x86_64-linux" ]; # "x86_64-darwin" "aarch64-linux" "aarch64-darwin"];
       forSystem = f: system: f system (import nixpkgs { inherit system; });
       forAllSystems = f: genAttrs systems (forSystem f);
+
     in
     {
       devShells = forAllSystems (

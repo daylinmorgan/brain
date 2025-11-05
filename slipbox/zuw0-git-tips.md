@@ -2,6 +2,7 @@
 title: Git Tips
 tags:
   - dev
+  - todo
 ---
 
 ## Big Repos
@@ -17,3 +18,7 @@ I promptly deleted my local `nixpkgs` git repo and re-cloned it as a bare repo.
 I don't currently have any active PR's to edit but will evaluate this approach when I do.
 
 I don't know that an analogue for this workflow exists in [`jj`](87f7-jujutsu.md).
+
+## Work on a PR (without using `gh`)
+
+- add git tips and jj tip about this

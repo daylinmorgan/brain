@@ -1,6 +1,9 @@
 ---
 title: "PGP: Pretty Good Privacy"
-tags: [linux, encryption]
+tags:
+  - linux
+  - encryption
+  - todo
 ---
 
 My main usecase for pgp keys is to get that sweet sweet commit verification.
@@ -33,15 +36,29 @@ If --output is not specified, the output goes to stdout. If --secret-key is not 
 gpg --export-secret-key my-key | paperkey | lpr
 ```
 
-This way the secret key never exists on disk in a readable format and is instead streamed directly to the print server.
-
-## Transferring a private subkey to a remote server
-
-Using this command a file is never written to the disk.
+## Securely store secrets on an offline medium as datamatrix (custom)
 
 ```sh
-gpg --export-secret-keys | ssh rent "gpg --import"
+nix run "git+https://git.dayl.in/daylin/utils#key2mtx" -- --output data.pdf
 ```
+
+<!-- TODO: add instructions for scanning + importing from paper -->
+
+This way the secret key never exists on disk in a readable format and is instead streamed directly to the print server.
+
+## Transfer a secret signing subkey to a server and ultimately trust it
+
+```bash
+KEY_ID="<KEY>"
+SERVER="server"
+gpg --export-secret-subkeys --armor "$KEY_ID" | ssh $SERVER gpg --import
+ssh $SERVER bash <<EOF
+FP=\$(gpg --fingerprint --with-colons "$KEY_ID" | awk -F: '/fpr:/ {print \$10; exit}')
+echo "\${FP}:6:" | gpg --import-ownertrust
+EOF
+``
+
+---
 
 Using [datamatrix](https://schnouki.net/post/2010/howto-backup-your-gnupg-secret-key-on-paper/) to store the key.
 [ref](https://caerul.net/post/notes-on-using-gnupg/)

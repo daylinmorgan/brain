@@ -74,6 +74,21 @@ If they aren't it means I've changed the closure somehow, otherwise the error is
 
 The ui for hydra is kind of a nightmare. But there is [`hydra-check`](https://github.com/nix-community/hydra-check) for the fastest check of single package.
 
+## Make warnings more serious
+
+They deprecated the `pkgs.system` alias.
+Which means I'm now constantly playing whack-a-mole with this message:
+
+```
+trace: evaluation warning: 'system' has been renamed to/replaced by 'stdenv.hostPlatform.system'
+```
+
+This command will hopefully give you a decent enough stack trace to track it down:
+
+```sh
+NIX_ABORT_ON_WARN=true nix build `oizys output` --dry-run --show-trace --impure
+```
+
 ## Ongoing problems
 
 ### Python
@@ -87,4 +102,6 @@ ImportError: libstdc++.so.6: cannot open shared object file: No such file or dir
 There are a number of ways to solve this the most attractive being to use nix-ld.
 However, I run into an issues because qtile is corrupting the environment 
 and taking precedence over the `python` wrapper that I add to `/run/current-system/sw/bin`.
+
+
 
