@@ -14,3 +14,8 @@ So here is a list of datasets I will probably never need but will keep here anyw
 
 - [data](https://aaspeechesdb.oscars.org/)
 - [blog](https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god)
+
+## National Gallery of Art Open Data Program
+
+- [data](https://github.com/NationalGalleryOfArt/opendata)
+- [about](https://www.nga.gov/artworks/free-images-and-open-access)
