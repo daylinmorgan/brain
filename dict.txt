@@ -22,6 +22,7 @@ Ghostty
 Giscus
 Hashimoto
 Hyprland
+Inspo
 Katniss
 Kedro
 Kensington
@@ -96,10 +97,12 @@ gitea
 goodreads
 gsettings
 harmonia
+haus
 hlxza
 homeserver
 hyprcursor
 ipairs
+jellyfin
 jera
 karax
 keybind
@@ -118,6 +121,7 @@ mdansi
 metaprogramming
 microblogging
 micromamba
+miniflux
 minisearch
 mispeh
 mitchellh
@@ -145,6 +149,7 @@ oizys
 openconnect
 othalan
 ovmf
+ownertrust
 paperkey
 paperkeyless
 pixi
@@ -169,7 +174,9 @@ setfont
 silverbullet
 slipbox
 startpage
+stdenv
 subkey
+subkeys
 submaps
 substituters
 surfingkeys
@@ -180,6 +187,7 @@ swtpn
 terrestial
 tostring
 unocss
+updatekeys
 usecase
 userspace
 utexas
@@ -206,4 +214,3 @@ zshbuiltins
 zshell
 zshmodules
 zstyle
-miniflux
