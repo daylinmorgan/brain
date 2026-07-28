@@ -10,7 +10,7 @@ My first exposure to [qmk](https://qmk.fm/) was in modifying my planck ez from [
 Since then I've also made use of qmk for customizing the experience of my corne keyboard and [ploopy adept trackball](2ffh-ploopy-adept.md).
 
 Originally I made use of qmk through a fork. Since then they've added support for something called "userspace".
-I've opted to move my configs over to this to facilitate better organization and deliniation from builtin keyboards/keymaps.
+I've opted to move my configs over to this to facilitate better organization and delineation from builtin keyboards/keymaps.
 
 Under the new setup I need to have two directories locally `qmk_firmware` and `qmk_userspace`.
 

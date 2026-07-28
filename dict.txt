@@ -74,6 +74,7 @@ cheatsheet
 chezmoi
 collabora
 coreutils
+corne
 datamatrix
 datashelf
 dataviz
@@ -88,6 +89,8 @@ distrobox
 dlload
 dmenu
 dosini
+drun
+druncache
 firmwares
 forgejo
 forseeable
@@ -108,6 +111,7 @@ karax
 keybind
 keybinds
 keymap
+keymaps
 kool
 lemmy
 lexid
