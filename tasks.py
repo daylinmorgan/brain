@@ -18,7 +18,6 @@ setenv(
 
 
 @task
-@targets("dict.txt")
 def add_words():
     """add 'misspelled' words to dict.txt"""
     dictionary = Asset("dict.txt")
@@ -39,6 +38,7 @@ def sort_dict():
     dictionary = Asset("dict.txt")
     words = sorted(w for w in dictionary.read().splitlines() if not w.startswith("#"))
     dictionary.write("\n".join(words))
+
 
 
 @task
