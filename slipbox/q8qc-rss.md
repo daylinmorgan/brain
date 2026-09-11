@@ -13,5 +13,4 @@ I want to explore self-hosting an RSS reader and if I ever write my own blog inc
 
 - [miniflux](https://miniflux.app/)
 
-
-
+Turns out it was trivial to deploy `miniflux` using nixos on machine on my network, so I did just that!
