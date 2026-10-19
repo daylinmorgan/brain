@@ -218,3 +218,6 @@ zshbuiltins
 zshell
 zshmodules
 zstyle
+XTEINK
+Declan
+Chidlow
