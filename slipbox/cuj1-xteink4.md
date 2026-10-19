@@ -1,8 +1,9 @@
 ---
-title: XTEINK4
+title: Xteink X4
 tags:
 - device
 - todo
+- bug
 ---
 
 
