@@ -12,3 +12,6 @@ A quick list of non-obvious tags and what they mean in the context of my brain.
 - [other](/tags/other):
   these are pages primarily serving as references to content found across the www
 
+- [bug](/tags/bug):
+  pages that include some info about a software bug I encountered but failed to solve
+
